@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Millenaria Cult Selection</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="include_cult">Include Which Cults?</string>
+
+    <string name="faction_name">Faction Name</string>
+    <string name="faction_difficulty">Difficulty to Play</string>
+    <string name="faction_expansion">Expansion</string>
+    <string name="faction_picture">Choose a Picture</string>
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="picture">Picture</string>
+    <string name="done">Done</string>
+    <string name="remove_cults">Remove Cults</string>
+    <string name="set_cults">Set Cults</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".activities.IncludeCultsActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cults to Include In This Game"
+        android:id="@+id/chooseCultsTitleTextView"
+        android:layout_gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cults Selected This Game"
+        android:id="@+id/cultsIncludedTextView"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/active_cult_listview"
+        android:layout_width="match_parent"
+        android:layout_height="379dp"
+        android:choiceMode="multipleChoice"
+        android:focusableInTouchMode="false" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Cult"
+            android:id="@+id/chooseCultButton"
+            android:layout_weight="0.90"
+            android:onClick="pickCult"/>
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="20px" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create New Cult"
+            android:id="@+id/createCultButton"
+            android:onClick="makeCult"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:onClick="prioritizeCults"/>
+
+</LinearLayout>
