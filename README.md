@@ -31,7 +31,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Jason Williams** - *Initial work* - [PurpleBooth](https://github.com/jawillia)
+* **Jason Williams** - *Initial work* - [jawillia](https://github.com/jawillia)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
